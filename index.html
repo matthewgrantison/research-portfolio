@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Matthew Ison's portfolio of applied economics, policy research, quantitative analysis, and GIS projects.">
+  <title>Matthew Ison | Policy Research &amp; Applied Economics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="#top">MATTHEW ISON</a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a></nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">POLICY RESEARCH · APPLIED ECONOMICS · DATA ANALYSIS · GIS</p>
+      <h1>Research that turns complex questions into useful evidence.</h1>
+      <p class="hero-text">I am an economics professional with a Master of Arts in Economics and an academic background in political science and public policy. My work applies quantitative methods, econometric analysis, and geographic information systems to questions affecting communities, public programs, and resource allocation.</p>
+      <a class="text-link" href="#projects">Explore selected research <span>↓</span></a>
+    </div>
+  </section>
+
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div><p class="section-label">ABOUT ME</p><h2>Evidence-based research for public questions.</h2></div>
+      <div>
+        <p>I hold a Master of Arts in Economics and a bachelor's degree in Political Science with a public policy emphasis. My interests center on understanding how economic and policy decisions affect individuals, organizations, and communities, particularly when those decisions involve competing priorities and limited resources.</p>
+        <p>Through academic research and applied projects, I have used econometric methods, statistical analysis, programming, and geographic information systems to investigate real-world questions. My work has included evaluating policy outcomes, examining healthcare accessibility, analyzing economic relationships, and communicating findings through research papers, maps, and data visualizations.</p>
+        <p>I value objective, evidence-based research and believe complex policy questions deserve careful analysis, thoughtful interpretation, and clear communication. I approach research with intellectual curiosity, attention to detail, and a commitment to continuous learning and collaboration. My goal is to contribute analytical work that helps decision-makers make informed choices and supports effective, accountable communities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-heading"><p class="section-label">SELECTED WORK</p><h2>Research &amp; analytical projects</h2><p class="section-intro">A selection of projects applying quantitative, spatial, and computational methods to policy, public health, environmental, and economic questions.</p></div>
+
+      <article class="project-card">
+        <div class="project-visual image-visual"><img src="images/crime_rate_pre_post_treatment.png" alt="Comparison of crime-rate trends in Oregon and Idaho before and after Measure 110"></div>
+        <div class="project-info"><span class="project-number">01 · POLICY EVALUATION</span>
+          <h3>Crime Rates &amp; Oregon Ballot Measure 110</h3>
+          <p>This research examines the relationship between Oregon's Measure 110 and subsequent crime-rate outcomes. Using monthly crime data from Oregon and Idaho, I developed a difference-in-differences framework to compare changes following implementation. The analysis incorporates socioeconomic controls and discusses important limitations—including the short pre-treatment period and differences between the treatment and comparison states—that affect how results should be interpreted.</p>
+          <p class="methods">Methods: Econometrics · Difference-in-Differences · Python · Stata · Policy Evaluation</p>
+          <div class="button-group"><a class="button" href="projects/CrimeRate_Analysis.pdf" target="_blank" rel="noopener">Read research paper <span>↗</span></a><a class="button button-secondary" href="images/crime_rate_pre_post_treatment.png" target="_blank" rel="noopener">Open graph <span>↗</span></a></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual image-visual"><img src="images/hospitalmap.png" alt="Idaho census tracts showing heart-disease prevalence and hospital locations"></div>
+        <div class="project-info"><span class="project-number">02 · IDAHO PUBLIC HEALTH &amp; GIS</span>
+          <h3>Hospital Access &amp; Heart Disease in Idaho</h3>
+          <p>This research investigates the relationship between geographic access to hospitals and heart-disease prevalence across Idaho census tracts. I used Python-based GIS methods to calculate straight-line distances from census-tract centroids to hospital locations, then applied multiple OLS regression specifications with socioeconomic, environmental, and health-related controls. The initial association between distance and prevalence became statistically insignificant after controls were added, underscoring the importance of considering broader factors when evaluating health outcomes.</p>
+          <p class="methods">Methods: GIS · Spatial Analysis · Python · Census Data · OLS Regression</p>
+          <div class="button-group"><a class="button" href="projects/ECON540FinalPaper-1.pdf" target="_blank" rel="noopener">Read research paper <span>↗</span></a><a class="button button-secondary" href="images/hospitalmap.png" target="_blank" rel="noopener">Open map <span>↗</span></a></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual image-visual"><img src="images/california-wildfire-preview.png" alt="California social vulnerability and wildfire exposure map"></div>
+        <div class="project-info"><span class="project-number">03 · ENVIRONMENTAL POLICY &amp; GIS</span>
+          <h3>California Social Vulnerability &amp; Wildfire Exposure</h3>
+          <p>This mapping project examines the geographic relationship between social vulnerability and wildfire exposure across California. Using Social Vulnerability Index data alongside historic and current wildfire areas, I developed a map illustrating how environmental hazards intersect with communities experiencing varying levels of social vulnerability. The project demonstrates the use of demographic and geospatial datasets to communicate geographic relationships relevant to emergency planning, resource allocation, and community resilience.</p>
+          <p class="methods">Methods: ArcGIS Pro · Spatial Analysis · Census Data · Cartography</p>
+          <div class="button-group"><a class="button" href="projects/WildfiremapCalifornia.pdf" target="_blank" rel="noopener">View project map <span>↗</span></a></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual image-visual"><img src="images/nba_portfolio_optimization_efficient_frontier.png" alt="NBA player portfolio optimization and efficient frontier visualization"></div>
+        <div class="project-info"><span class="project-number">04 · APPLIED ECONOMICS &amp; QUANTITATIVE ANALYSIS</span>
+          <h3>NBA Portfolio Optimization &amp; Exploratory Analysis</h3>
+          <p>This project applies concepts from modern portfolio theory to professional basketball, using player-level performance data from the Miami Heat's 2021–2022 season. The portfolio optimization analysis explores the trade-off between performance and variability through minimum-variance and Sharpe-ratio approaches. A companion exploratory analysis examines the underlying player and salary data, demonstrating how financial and statistical concepts can be applied to an unconventional dataset.</p>
+          <p class="methods">Methods: R · Financial Economics · Portfolio Optimization · Exploratory Data Analysis</p>
+          <div class="button-group"><a class="button" href="projects/NBA_Portfolio_Analysis.html" target="_blank" rel="noopener">View portfolio optimization paper <span>↗</span></a><a class="button button-secondary" href="projects/NBA_Exploratory_Analysis.html" target="_blank" rel="noopener">View exploratory analysis paper <span>↗</span></a></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual image-visual"><img src="images/hurricane.png" alt="Hurricane Ian damage classification project imagery"></div>
+        <div class="project-info"><span class="project-number">05 · MACHINE LEARNING &amp; REMOTE SENSING</span>
+          <h3>Hurricane Ian Damage Classification</h3>
+          <p>This project applies machine-learning classification techniques to imagery collected following Hurricane Ian to identify damage across natural environments and developed areas. The analysis focuses on distinguishing damaged and non-damaged features, including environmental areas and town buildings, using image-based classification techniques. The project demonstrates experience applying computational and geospatial methods to disaster-related assessment and communicating technical findings.</p>
+          <p class="methods">Methods: Machine Learning · Image Classification · GIS · Remote Sensing</p>
+          <div class="button-group"><a class="button" href="projects/GIS%20Graduate%20Project%20-%20MatthewIson.pptx.pdf" target="_blank" rel="noopener">View project presentation <span>↗</span></a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer><div class="container footer-inner"><span>MATTHEW ISON · POLICY RESEARCH &amp; APPLIED ECONOMICS</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
